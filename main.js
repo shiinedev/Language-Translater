@@ -17,7 +17,7 @@ const fetchData = async () => {
     const options = {
         method: "GET",
         headers: {
-          "x-rapidapi-key": "33928d43a1mshfc0bcb94acfafbdp1081e7jsn9010971be2cd",// Replace with your RapidAPI key
+          "x-rapidapi-key": "",// Replace with your RapidAPI key
           "x-rapidapi-host": "microsoft-translator-text-api3.p.rapidapi.com",
             
         },
@@ -78,7 +78,7 @@ document.querySelector("#translate-form").addEventListener("submit", async (e) =
         method: "POST",
         headers: {
             "content-type": "application/json",// Set content type to JSON
-            "x-rapidapi-key": "33928d43a1mshfc0bcb94acfafbdp1081e7jsn9010971be2cd", // Replace with your RapidAPI key
+            "x-rapidapi-key": "", // Replace with your RapidAPI key
             "x-rapidapi-host": "microsoft-translator-text-api3.p.rapidapi.com",
       
         },
