@@ -5,16 +5,18 @@
 }
 
 body{
-    background-color: #f9f9f9;
+    background-color: #171717;
     font-family: Arial, Helvetica, sans-serif;
+    color: #EDEDED;
 }
 
 .translate-container{
     max-width:500px ;
     margin: 50px auto;
-    background-color: white;
-    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
+    background-color: #444444;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
     padding: 50px 30px;
+    border-radius: 10px;
 }
 .translate-container h1{
     margin-bottom: 2rem;
@@ -34,13 +36,14 @@ body{
     padding: 8px 12px ;
     font-size: 1rem;
     border-radius: 5px;
+    background-color: #EDEDED;
 }
 .translate-form button{
     padding: 10px 16px;
     font-size: 1rem;
     border: none;
     border-radius: 5px;
-    background-color: #00674c;
+    background-color: #DA0037;
     color: white;
     cursor: pointer;
     margin-bottom: 1rem;
