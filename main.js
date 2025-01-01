@@ -1,8 +1,12 @@
+// Select the language dropdown elements from the DOM
+const fromLang = document.querySelector("#from-lang");
+const ToLang = document.querySelector("#to-lang");
 
 // Wait for the DOM to fully load before executing fetchData
 document.addEventListener("DOMContentLoaded", () => {
     fetchData();
 });
+
 
 // Function to fetch available languages from the translation API
 const fetchData = async () => {
@@ -24,7 +28,7 @@ const fetchData = async () => {
 
         // Extract language names and their short codes
         const lang = result.translation;
-
+        
         // Populate the dropdown menus with the fetched languages
         addToDomLang(lang);
     } catch (error) {
